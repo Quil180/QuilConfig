@@ -113,7 +113,14 @@
         },
         "CustomRPC": {
             "enabled": false,
-            "type": 0
+            "type": 0,
+            "timestampMode": 1,
+            "appID": "1181683891266924645",
+            "appName": "Graphics Programming",
+            "details": "Trying to code graphics...",
+            "state": "",
+            "imageBig": "image1",
+            "imageBigTooltip": "Me Fr"
         },
         "Dearrow": {
             "enabled": false
@@ -137,7 +144,8 @@
             "enableStreamQualityBypass": true,
             "transformStickers": true,
             "transformEmojis": true,
-            "transformCompoundSentence": false
+            "transformCompoundSentence": false,
+            "stickerSize": 160
         },
         "FakeProfileThemes": {
             "enabled": false
@@ -180,13 +188,13 @@
         },
         "ImageZoom": {
             "enabled": true,
-            "size": 287,
-            "zoom": 1.79,
+            "size": 255.39999999999992,
+            "zoom": 1.4061410256410256,
             "nearestNeighbour": false,
             "square": false,
             "saveZoomValues": true,
             "invertScroll": true,
-            "zoomSpeed": 0.5
+            "zoomSpeed": 0.257051282051282
         },
         "InvisibleChat": {
             "enabled": false
@@ -195,7 +203,13 @@
             "enabled": false
         },
         "LastFMRichPresence": {
-            "enabled": false
+            "enabled": false,
+            "shareUsername": false,
+            "hideWithSpotify": true,
+            "statusName": "some music",
+            "nameFormat": "status-name",
+            "useListeningStatus": false,
+            "missingArt": "lastfmLogo"
         },
         "LoadingQuotes": {
             "enabled": false
@@ -206,7 +220,8 @@
         "MessageClickActions": {
             "enabled": true,
             "requireModifier": false,
-            "enableDoubleClickToReply": true
+            "enableDoubleClickToReply": true,
+            "enableDoubleClickToEdit": true
         },
         "MessageLinkEmbeds": {
             "enabled": false
@@ -307,7 +322,8 @@
             "enabled": false
         },
         "PictureInPicture": {
-            "enabled": true
+            "enabled": true,
+            "loop": true
         },
         "PinDMs": {
             "enabled": false
@@ -490,9 +506,9 @@
         "logLimit": 50
     },
     "cloud": {
-        "authenticated": false,
+        "authenticated": true,
         "url": "https://api.vencord.dev/",
-        "settingsSync": false,
-        "settingsSyncVersion": 1701476950022
+        "settingsSync": true,
+        "settingsSyncVersion": 1701884959765
     }
 }
